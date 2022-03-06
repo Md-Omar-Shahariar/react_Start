@@ -4,5 +4,8 @@ function doSomething() {
 
 console.log("ami sobar agey");
 console.log("ami second person");
-setTimeout(doSomething, 10000);
+setTimeout(doSomething, 1000);
+setTimeout(() => {
+  console.log("Exploring....");
+}, 500);
 console.log("ami 3 no a aschi");
