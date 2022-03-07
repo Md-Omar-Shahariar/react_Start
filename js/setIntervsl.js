@@ -1,7 +1,7 @@
 console.log("first");
-setTimeout(() => {
-  console.log(100);
-}, 10000);
+setTimeout(()=>{
+    console.log("ad");
+},100)
 
 let sec = 0;
 const timeId = setInterval(() => {
